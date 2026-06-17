@@ -43,14 +43,14 @@ function findLargest(arr) {
 
 console.log("Largest Number:", findLargest(numbers));
 
-console.log("== REVERSE ARRAY MANUALLY==");
+console.log("== REVERSE ARRAY==");
 
 let fruits = ["Apple", "Litchi", "Mango","Banana"];
 
 function reverseArray(arr) {
 
   let reversed = [];
-for(let i = arr.Length - 1; i >= 0; i--) {
+  for(let i = arr.length - 1; i >= 0; i--) {
   reversed.push(arr[i]);
 }
 return reversed;
@@ -60,4 +60,13 @@ console.log("Original Array:", fruits);
 console.log("Reversed Array:", reverseArray(fruits));
 
 console.log("== FUNCTION INPUT → OUTPUT DRY RUN==");
+
+function square(num) {
+return num * num;
+
+}
+let result = square(5);
+
+console.log("Input:", 5);
+  console.log("Output:", result);
 
