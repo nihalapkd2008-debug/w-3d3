@@ -45,22 +45,19 @@ console.log("Largest Number:", findLargest(numbers));
 
 console.log("== REVERSE ARRAY MANUALLY==");
 
-let fruits = ["Apple", "Orange", "Mango", "Banana"];
+let fruits = ["Apple", "Litchi", "Mango","Banana"];
 
 function reverseArray(arr) {
 
-    let reversed = [];
-
-    for(let i = arr.length - 1; i >= 0; i--) {
-
-        reversed.push(arr[i]);
-
-    }
-
-    return reversed;
+  let reversed = [];
+for(let i = arr.Length - 1; i >= 0; i--) {
+  reversed.push(arr[i]);
+}
+return reversed;
 }
 
 console.log("Original Array:", fruits);
 console.log("Reversed Array:", reverseArray(fruits));
 
-console.log("== REVERSE ARRAY MANUALLY==");
+console.log("== FUNCTION INPUT → OUTPUT DRY RUN==");
+
